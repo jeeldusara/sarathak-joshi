@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background: url(bg3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+
+header{
+    width:100%;
+    margin-top:-590px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #fff;
+    background: rgba(0,0,0,0.5);
+}
+#chk1{
+    display: none;
+     
+     
+}
+i{
+    color: #fff;
+    cursor: pointer;
+}
+header .logo{
+    flex: 1;
+    color:#fff;
+     
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header ul {
+    flex:2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+header ul li a:hover{
+    border-bottom: 2px solid white
+}
+header .menu{
+    font-size: 2.5em;
+    display: none;
+}
+
+  
+
+
+
+
+/* Main Css */
+
+body {
+    background-color: #ebecf0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+body, p, input, select, textarea, button {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+div, p {
+    color: #babecc;
+    text-shadow: 1px 1px 1px #fff;
+}
+.box{
+    margin-top: -300px;
+}
+/* main box */
+form {
+    padding: 16px;
+    width: 320px;
+    margin: 0 auto;
+    border-radius:50px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+}
+
+/* Heading of member ship */
+
+ .segment {
+
+    text-align: center;
+    
+}
+
+/* box Shaping */
+
+button, input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #ebecf0;
+    text-shadow: 1px 1px 0 #fff;
+}
+label {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+}
+input {
+    margin-right: 8px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+}
+input:focus {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+/* Hover Effect For button */
+
+button{
+    color: #61677c;
+    font-weight: bold;
+    box-shadow: -5px -5px 10px #fff, 5px 5px 10px #babecc;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover {
+    box-shadow: -1px -2px 5px black, 2px 2px 5px #babecc;
+}
+
+
+
+button.red {
+    display: block;
+    width: 100%;
+    color: #ae1100;
+}
+.p {
+    margin-top:450px;
+}
+.btn{
+    background:rgb(195, 209, 223);
+    color:rgb(45, 44, 44);
+    padding:15px 20px;
+    border:none;
+    cursor:pointer;
+    width:100%;
+    font-size:18px;
+    border-radius: 25px;
+}

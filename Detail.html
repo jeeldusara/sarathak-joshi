@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Detail</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+	*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background: linear-gradient(to right, #ffcccc 30%, #33cccc 100%);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+
+header{
+    width:100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #fff;
+    background: rgba(0,0,0,0.5);
+}
+#chk1{
+    display: none;
+     
+     
+}
+i{
+    color: #fff;
+    cursor: pointer;
+}
+header .logo{
+    flex: 1;
+    color:#fff;
+     
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+header ul {
+    flex:2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+header ul li a :hover{
+    border-bottom: 2px solid rgb(188, 136, 136);
+}
+header .menu{
+    font-size: 2.5em;
+    display: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(188, 136, 136);
+}
+/* Zoom In image */
+.hovereffects{
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+   margin-bottom: 10px;
+}
+/* black hover effect */
+.hovereffects .overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	background-color: rgba(0,0,0,0.5);
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out
+}
+/* 4 Second Delay */
+.hovereffects img{
+	display: block;
+	position: relative;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
+}
+/* Hover photo Name  */
+.hovereffects h2{
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	background: rgba(0,0,0,0.6);
+	-webkit-transform: translateY(-100px);
+	-ms-transform: translateY(-100px);
+	transform: translateY(-100px);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	padding: 10px;
+}
+
+
+
+
+
+.hovereffects:hover img{
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.hovereffects:hover .overlay{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.hovereffects:hover h2, .hovereffects:hover a.info{
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-ms-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+
+
+.Graph{
+    border-radius:75px;
+    margin-top:110px;
+    margin-left:10px;
+}
+.info{
+    margin-left: 500px;
+    margin-top:-260px;
+    font-size: 20px;
+    
+    color: rgb(90, 55, 9);
+}
+</style>
+
+
+<body>
+<header>
+	<img src="Denver.png" width="100px">
+	<input type ="checkbox" name ="" id ="chk1">
+	<div class="logo"><h1>Denver Steel .</h1>
+	<h3>Corporation -</h3></div>
+		<div class="search-box">
+			
+		</div>
+		<ul>
+		   
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About%20Us.html">About Us</a></li>
+            <li><a href="Detail.html">Details</a></li>
+            <li><a href="Login.html">Sign In</a></li>
+
+            <li><a href="member.html">Membership</a></li>
+			
+		   
+		</ul>
+		<div class="menu">
+			<label for="chk1">
+				<i class="fa fa-bars"></i>
+			</label>
+		</div>
+</header>
+<div>
+	<img src="Graph.gif" width="450px" class="Graph">
+</div>
+<div class="info">
+	<h2>Denver Steel Production</h2>
+	<br>
+	
+	<p>In financial year 2021-2022, Denver Steel's sales have increased around 54% compared to the previous year. For the full financial year 2021-22, Denver Steel reported good earnings. Its net profit rose to ₹ 41,750 crore. This is a more than five-fold jump from previous year's net profit of ₹ 8,190 crore.</b></p><br>
+	<hr color="Gray">
+	<p>Overview Of Denver Steels</p> 
+</div>
+<div class="container">
+<div class="row">
+
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+	<div class="hovereffects">
+		<img src="img4.jpeg" height="300px" width="100%" alt="images">
+		<div class="overlay">
+			<h2>Steel Manufacturing</h2>
+		
+		</div>
+	</div>
+
+</div>
+
+
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+	<div class="hovereffects">
+		<img src="img5.jpg" height="300px" width="100%" alt="images">
+		<div class="overlay">
+			<h2>Company</h2>
+			
+		</div>
+	</div>
+
+</div>
+
+
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+	<div class="hovereffects">
+		<img src="img6.jpg" height="300px" width="100%" alt="images">
+		<div class="overlay">
+			<h2>Head Office</h2>
+		
+		</div>
+	</div>
+
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
